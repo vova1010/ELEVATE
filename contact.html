@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>GET IN TOUCH</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="index.html" class="header__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="join.html" class="header__link">Join now</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="header__link active__page">Get in touch</a>
+                        </li>
+                        <li>
+                            <a href="apply.html" class="header__link" id="apply__header">Apply <span id="m-now">now</span> <span id="d-here">here</span></a>
+                        </li>
+                    </ul>
+                    <div id="social-header-mobile">
+                        <a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <section class="contact">
+        <p class="section__title">GET IN TOUCH</p>
+        <p class="text">Fill out the form below and we’ll be in touch shortly</p>
+
+        <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='submission.html'}"></iframe>
+        <form action="https://docs.google.com/forms/u/1/d/1ZT-raLgSQeVyHAmeEFYpZ-RVVfuURRbKo_JHbUunJN0/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted = true">
+            <div class="form-element">
+                <span>Name</span>
+                <input type="text" required name="entry.1463337955">
+            </div>
+            <div class="form-element">
+                <span>Email</span>
+                <input type="email" required name="entry.1516113779">
+            </div>
+            <div class="form-element">
+                <span>Instagram</span>
+                <input type="text" required name="entry.35297701">
+            </div>
+            <div class="form-element">
+                <span>Phone</span>
+                <input type="tel" required name="entry.258459628">
+            </div>
+            <div class="buttons">
+                <button type="submit" class="button">APPLY HERE</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="social__footer">
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+            <p id="copyright">© 2023 All Rights Reserved | ELEVATE</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/257a877408.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
